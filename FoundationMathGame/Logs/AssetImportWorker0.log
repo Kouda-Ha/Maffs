@@ -180,3 +180,91 @@ Received Import Request.
   path: Assets/Resources
   artifactKey: Guid(e66659fd8b3792b4099e51d0d5576bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resources using Guid(e66659fd8b3792b4099e51d0d5576bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe03b6ecab014284ad91b4e3c1b9b996') in 0.010246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 252.639002 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.019930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.817209 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(897cb3492511ae94ebd3fd937c17a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(897cb3492511ae94ebd3fd937c17a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fcd5b8bde2a6ced30ff1c8d1b18568') in 0.014926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.806498 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(4ab5ad4bc9ab7024baee460fbb21e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(4ab5ad4bc9ab7024baee460fbb21e13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b3af0bebaed4ce4726cad6570f05dc') in 0.014295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.711144 seconds.
+  path: Assets/Pictures
+  artifactKey: Guid(e0d657fb2075239409a632b91426e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures using Guid(e0d657fb2075239409a632b91426e50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4cfae7a880395ef7470b6bbf653a52') in 0.016311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.366868 seconds.
+  path: Assets/Scenes/MMU_Evil.unity
+  artifactKey: Guid(04e76dfba7566084b82c0ae3173408aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MMU_Evil.unity using Guid(04e76dfba7566084b82c0ae3173408aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff97b80d67c875d1b3770f36215bcfcc') in 0.014166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.712282 seconds.
+  path: Assets/Materials/FloorBaseline.mat
+  artifactKey: Guid(8126b8eed900b274fad52e5e5d1daf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorBaseline.mat using Guid(8126b8eed900b274fad52e5e5d1daf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f60e58f60afc2df2e58323cbc2ffbd5') in 0.452081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.429932 seconds.
+  path: Assets/Materials/FloorBaseline.mat
+  artifactKey: Guid(8126b8eed900b274fad52e5e5d1daf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FloorBaseline.mat using Guid(8126b8eed900b274fad52e5e5d1daf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dc1327857694f16c1c6b46b32f8d60') in 0.028018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.577600 seconds.
+  path: Assets/Pictures/ClassroomMaths1.jpg
+  artifactKey: Guid(a15b0d55ba61ab347a2fd7dd441de978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/ClassroomMaths1.jpg using Guid(a15b0d55ba61ab347a2fd7dd441de978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e70271051317df6a0f5a892c811850b') in 0.091219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Pictures/HalllwayMaths.jpg
+  artifactKey: Guid(7cf782d7b3ce38b4392fd97f6c4dec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/HalllwayMaths.jpg using Guid(7cf782d7b3ce38b4392fd97f6c4dec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f629b3435375f4bec636124ed90fd5') in 0.020866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pictures/ClassroomMaths3.jpg
+  artifactKey: Guid(2e5d3cebf4d959b41b3d6bf48ac0dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/ClassroomMaths3.jpg using Guid(2e5d3cebf4d959b41b3d6bf48ac0dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c35006bcc41dc4345ea84b7aae654') in 0.019121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.859763 seconds.
+  path: Assets/Pictures/Materials
+  artifactKey: Guid(05c4f076dda1c22488c01337253f9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/Materials using Guid(05c4f076dda1c22488c01337253f9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61773be2883f73b7c8d9d5e13b49351a') in 0.016317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 577.303180 seconds.
+  path: Assets/Pictures/door sign.jpg
+  artifactKey: Guid(0d6fd924637bef44ca0088fdb97cc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/door sign.jpg using Guid(0d6fd924637bef44ca0088fdb97cc021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9553d9381037c5dd5746f43e1509b6b6') in 0.043516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pictures/pillar and floor.jpg
+  artifactKey: Guid(4a33a7bd6a7b65a41acd56b63709b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/pillar and floor.jpg using Guid(4a33a7bd6a7b65a41acd56b63709b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6433051b293cc75b1559170c57f865e2') in 0.028756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pictures/stair.jpg
+  artifactKey: Guid(57bdae7dbfc64bb41b9060dc1bf7fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/stair.jpg using Guid(57bdae7dbfc64bb41b9060dc1bf7fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff94119d7366544c96e9a2659410892') in 0.024213 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
