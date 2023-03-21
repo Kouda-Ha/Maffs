@@ -168,3 +168,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11669.377961 seconds.
+  path: Assets/Pictures/ClassroomMaths2.jpg
+  artifactKey: Guid(9103e913980ac4b49a7678f7349cfc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/ClassroomMaths2.jpg using Guid(9103e913980ac4b49a7678f7349cfc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2650c04cbc4476ffa04bf970b13398d') in 0.124111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pictures/ClassroomMaths4.jpg
+  artifactKey: Guid(0109377555990ff41b7b306b2afbdc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/ClassroomMaths4.jpg using Guid(0109377555990ff41b7b306b2afbdc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e1daadd87edc656f5db4ecda920d12') in 0.019976 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
