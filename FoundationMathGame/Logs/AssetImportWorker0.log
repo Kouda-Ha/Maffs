@@ -15,7 +15,7 @@ C:/Users/panda/Desktop/FoundationMathGame/FoundationMathGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59135
+50590
 Successfully changed project path to: C:/Users/panda/Desktop/FoundationMathGame/FoundationMathGame
 C:/Users/panda/Desktop/FoundationMathGame/FoundationMathGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/panda/Desktop/FoundationMathGame/FoundationMathGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 474.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 157.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,52 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.022320 seconds.
+Registered in 0.024508 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 130.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
+- Completed reload, in  1.111 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1464ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (945ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (449ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (446ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
+				InitializePlatformSupportModulesInManaged (98ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
+				RefreshPlugins (145ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012672 seconds.
-Android Extension - Scanning For ADB Devices 4836 ms
+Registered in 0.011662 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -116,35 +115,294 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.436 seconds
+- Completed reload, in  1.870 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1437ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (275ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1193ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (141ms)
+		EndReloadAssembly (1408ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (704ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (775ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (366ms)
-				ProcessInitializeOnLoadMethodAttributes (165ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3884 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (112.0 KB). Loaded Objects now: 4318.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 8.974100 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.149000 ms MarkObjects: 8.280700 ms  DeleteObjects: 0.148400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 261390.487610 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Materials
+  artifactKey: Guid(4da42b2c2da6dd74b86d9609ba77b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Materials using Guid(4da42b2c2da6dd74b86d9609ba77b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47aea3dd4fca8107545edac0d9582a6') in 0.015717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.519590 seconds.
+  path: Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials
+  artifactKey: Guid(83a29df9bd0ff13479b20df2b453f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials using Guid(83a29df9bd0ff13479b20df2b453f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6db0d5727f27b653fed9b76af42fff6') in 0.041745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.818915 seconds.
+  path: Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/PostProcessProfiles
+  artifactKey: Guid(2ba67a5e6836d5f4381a99d3da564edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/PostProcessProfiles using Guid(2ba67a5e6836d5f4381a99d3da564edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c944d7714fb3b08fe05016525b770e7') in 0.050804 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1832ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (737ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (207ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (79.2 KB). Loaded Objects now: 4321.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 10.163600 ms (FindLiveObjects: 0.477900 ms CreateObjectMapping: 0.376900 ms MarkObjects: 9.169000 ms  DeleteObjects: 0.138100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.201600 seconds.
+  path: Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/PostProcessProfiles/PPP_LPOP_A.asset
+  artifactKey: Guid(d4897b14f2b7d024bbd2e5ff8408dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/PostProcessProfiles/PPP_LPOP_A.asset using Guid(d4897b14f2b7d024bbd2e5ff8408dc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416240030f1d6ecaaf4aac063c9fa27d') in 0.049403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.059616 seconds.
+  path: Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials/EmissiveLight.mat
+  artifactKey: Guid(d4947c064a3f1fc4795d4022a0623f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials/EmissiveLight.mat using Guid(d4947c064a3f1fc4795d4022a0623f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a81dd82d2b5a54b3bfdce6a733639') in 0.170850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials/PlainMaterial.mat
+  artifactKey: Guid(6f8cb0cd933f38245891b18b44b6c61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/LowPolyOfficeProps_LITE/Materials/PlainMaterial.mat using Guid(6f8cb0cd933f38245891b18b44b6c61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606c7b578d4dc17065ae60c09e781eeb') in 0.036609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.088212 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Materials/BlackBoard.mat
+  artifactKey: Guid(43f7616b64537dc45b4cc6aa5fcc14ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Materials/BlackBoard.mat using Guid(43f7616b64537dc45b4cc6aa5fcc14ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349c65f8acd3b64936a55ba0456d47ac') in 0.076009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Materials/Large_Shelf.mat
+  artifactKey: Guid(4534fc4050c497c42857b079971debaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Materials/Large_Shelf.mat using Guid(4534fc4050c497c42857b079971debaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdedee2b2ac89cd6e00c2e0a502d52c4') in 0.049061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Materials/Paper.mat
+  artifactKey: Guid(b8f585517974cd949b9c3aba274b118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Materials/Paper.mat using Guid(b8f585517974cd949b9c3aba274b118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abaa562e7b85a4d07f2fdec819c8718') in 0.060913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Materials/wall.mat
+  artifactKey: Guid(02a1ca010017a044cb4d046c796bd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Materials/wall.mat using Guid(02a1ca010017a044cb4d046c796bd355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d71fc69ec642c38fc223c88465ab14') in 0.458905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.413385 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Paper_Paper_Normal.png
+  artifactKey: Guid(0e731e9bbb5a0094fa29715354f47b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Paper_Paper_Normal.png using Guid(0e731e9bbb5a0094fa29715354f47b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d332d60ada0048ce4956e7721167fab') in 0.053307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.757149 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Blackboard_Blackboard_MetallicSmoothness.png
+  artifactKey: Guid(59087667adc74e249ac1e17169e5e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Blackboard_Blackboard_MetallicSmoothness.png using Guid(59087667adc74e249ac1e17169e5e381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044e1dc45c78223adef920161f0076d1') in 0.065530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Blackboard_Blackboard_Normal.png
+  artifactKey: Guid(1639f858f60ade44e8a15c70b65a91c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Blackboard_Blackboard_Normal.png using Guid(1639f858f60ade44e8a15c70b65a91c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bce74a9f934f2e775d6779dcd702e4') in 0.047544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Large_Shelf_Large_Shelf_Normal.png
+  artifactKey: Guid(7a7200a5c3ae3064b877838c75cf04d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Large_Shelf_Large_Shelf_Normal.png using Guid(7a7200a5c3ae3064b877838c75cf04d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fbcbc147c9961e674feb04c39c922d') in 0.041778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Table_Sch_Table_AlbedoTransparency.png
+  artifactKey: Guid(7a446b7b3415cc145b28934066f1dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Table_Sch_Table_AlbedoTransparency.png using Guid(7a446b7b3415cc145b28934066f1dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2973b13c78bce3b47f54b43947a66a') in 0.031899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Info_Board_Info_Board_MetallicSmoothness.png
+  artifactKey: Guid(3a9fe8c9b02efbf4791d854748a79800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Info_Board_Info_Board_MetallicSmoothness.png using Guid(3a9fe8c9b02efbf4791d854748a79800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1739b236111e70d3c165115a9abdf8') in 0.038254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_MetallicSmoothness.png
+  artifactKey: Guid(495a63ef0aeb3cd459be7863725529cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_MetallicSmoothness.png using Guid(495a63ef0aeb3cd459be7863725529cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a71d2f31f0b4a9b6b1924d43b9d7a29') in 0.030315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Pencil_Box_Pencil_Box_Normal.png
+  artifactKey: Guid(b799e588cb2d81943a275ff637b9e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Pencil_Box_Pencil_Box_Normal.png using Guid(b799e588cb2d81943a275ff637b9e2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e1ace5dd1a8385c297a50765f5c665') in 0.023514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Drawer_drawer_MetallicSmoothness.png
+  artifactKey: Guid(0e132071a27388c46bb73ce03daffdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Drawer_drawer_MetallicSmoothness.png using Guid(0e132071a27388c46bb73ce03daffdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c309db6e2e8ba834dada30b9e009efb') in 0.026514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Lunch_Box_Lunch_Box_AlbedoTransparency.png
+  artifactKey: Guid(26c192630cea3cd4e9a447a84af9a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Lunch_Box_Lunch_Box_AlbedoTransparency.png using Guid(26c192630cea3cd4e9a447a84af9a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da44a571df43744b096e4d75716526e') in 0.025857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Lunch_Box_Lunch_Box_Normal.png
+  artifactKey: Guid(fae9d6f758442ed41b63fc33585632d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Lunch_Box_Lunch_Box_Normal.png using Guid(fae9d6f758442ed41b63fc33585632d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a3e2b51c70fbde23c0b0eef099981') in 0.027185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Large_Shelf_Large_Shelf_MetallicSmoothness.png
+  artifactKey: Guid(f1af60cd18b8141499f00d6bb1f940c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Large_Shelf_Large_Shelf_MetallicSmoothness.png using Guid(f1af60cd18b8141499f00d6bb1f940c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee602510a6f5ff23db284c665f33870') in 0.024075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Desk_Teacher_Desk_MetallicSmoothness.png
+  artifactKey: Guid(70101d64e31ef6b458884a78539c9130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Desk_Teacher_Desk_MetallicSmoothness.png using Guid(70101d64e31ef6b458884a78539c9130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb140320143d115035d079de1f3dc957') in 0.030419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_AlbedoTransparency.png
+  artifactKey: Guid(17f78bacf47f2f44e9c97c99da569360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_AlbedoTransparency.png using Guid(17f78bacf47f2f44e9c97c99da569360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9476b6cd635db8a27aab85ec95657bb8') in 0.029362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Drawer_drawer_Normal.png
+  artifactKey: Guid(1ffcb3956a45b0c45b051cfce72bf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Drawer_drawer_Normal.png using Guid(1ffcb3956a45b0c45b051cfce72bf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0e1b2df2ec6cae0c1e6ad8a9a6779d') in 0.022510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_AlbedoTransparency.png
+  artifactKey: Guid(61b7b05762efeb34a931f51687877150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_AlbedoTransparency.png using Guid(61b7b05762efeb34a931f51687877150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0559ea528516bc0186eae89dda7dc90c') in 0.028918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_Normal.png
+  artifactKey: Guid(0c5f39f1f310c524d85bb7d9d1d5d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Chair_Sch_Chair_Normal.png using Guid(0c5f39f1f310c524d85bb7d9d1d5d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2983cb9ed9259854426f3d835dd9a49') in 0.026122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Table_Sch_Table_Normal.png
+  artifactKey: Guid(4b11d9b8a9023a5468d819f01c72ce7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Sch_Table_Sch_Table_Normal.png using Guid(4b11d9b8a9023a5468d819f01c72ce7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea0f1b032d65f4da233c2cfce6358b4') in 0.026512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_MetallicSmoothness.png
+  artifactKey: Guid(e08388e1a1a07794d86f7d43d6bdb905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Horror School Props/Textures/Teacher_Chair_Teacher_Chair_MetallicSmoothness.png using Guid(e08388e1a1a07794d86f7d43d6bdb905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab71308451db960e6b34658d556c0d1b') in 0.020073 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
