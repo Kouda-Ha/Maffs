@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1473.6
     height: 820.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 46
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,10 +92,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 184.8
+    width: 116.8
     height: 670.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 72
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 73
+  controlID: 48
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,9 +264,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 184.8
+    x: 116.8
     y: 0
-    width: 1188.7999
+    width: 1256.7999
     height: 670.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pictures/Before And After
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Pictures/Before And After
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 143}
-    m_SelectedIDs: 02640000
-    m_LastClickedID: 25602
-    m_ExpandedIDs: 00000000b8630000ce63000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 260.60004}
+    m_SelectedIDs: 1a640000
+    m_LastClickedID: 25626
+    m_ExpandedIDs: 00000000b8630000186400001c640000d6680000d868000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -479,7 +479,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 183.8
+    width: 115.8
     height: 649.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44600000
-      m_LastClickedID: 24644
-      m_ExpandedIDs: 86f9ffff8af9ffff96f9ffff2cfbffff
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: 1ce1ffff
+      m_LastClickedID: -7908
+      m_ExpandedIDs: 86f9ffff8af9ffff96f9ffff2cfbffff125f0000d460000002610000be610000ce610000f2610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -534,9 +534,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 184.8
+    x: 116.8
     y: 73.6
-    width: 1186.7999
+    width: 1254.7999
     height: 649.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -761,9 +761,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.879173, y: -10.031913, z: 9.222952}
+    m_Target: {x: 89.084785, y: -25.724518, z: 77.488495}
     speed: 2
-    m_Value: {x: 20.879173, y: -10.031913, z: 9.222952}
+    m_Value: {x: 89.084785, y: -25.724518, z: 77.488495}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -810,13 +810,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.33013102, y: -0.32653484, z: 0.12304992, w: -0.8771825}
+    m_Target: {x: 0.17158577, y: 0.37335142, z: -0.070614465, w: 0.90906394}
     speed: 2
-    m_Value: {x: -0.3302819, y: -0.32518592, z: 0.122542225, w: -0.8775828}
+    m_Value: {x: 0.1715672, y: 0.373311, z: -0.07060682, w: 0.9089655}
   m_Size:
-    m_Target: 18.65439
+    m_Target: 81.63447
     speed: 2
-    m_Value: 18.65439
+    m_Value: 81.63447
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -861,9 +861,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 184.8
+    x: 116.8
     y: 73.6
-    width: 1186.7999
+    width: 1254.7999
     height: 649.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1186.7999, y: 628.4}
+  m_TargetSize: {x: 1254.7999, y: 628.4}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -890,8 +890,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -474.71997
-    m_HBaseRangeMax: 474.71997
+    m_HBaseRangeMin: -501.91998
+    m_HBaseRangeMax: 501.91998
     m_VBaseRangeMin: -251.36002
     m_VBaseRangeMax: 251.36002
     m_HAllowExceedBaseRangeMin: 1
@@ -911,23 +911,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1186.7999
+      width: 1254.7999
       height: 628.4
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 593.39996, y: 314.2}
+    m_Translation: {x: 627.39996, y: 314.2}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -593.39996
+      x: -627.39996
       y: -314.2
-      width: 1186.7999
+      width: 1254.7999
       height: 628.4
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1483.4999, y: 811.75}
+  m_LastWindowPixelSize: {x: 1568.4999, y: 811.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
