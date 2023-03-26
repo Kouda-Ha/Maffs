@@ -348,3 +348,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460279.067188 seconds.
+  path: Assets/Assets_BathroomProps
+  artifactKey: Guid(44d8e5b8615a3624eaf4fc476662b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_BathroomProps using Guid(44d8e5b8615a3624eaf4fc476662b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539cda8c6f82613123bff2d42576c496') in 0.014071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829621 seconds.
+  path: Assets/Scenes/MMU_Good.unity
+  artifactKey: Guid(f8116e515a9af2d46958b74ae5675821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MMU_Good.unity using Guid(f8116e515a9af2d46958b74ae5675821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53253276281c83ea751281c08322c4a0') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.447980 seconds.
+  path: Assets/Scenes/MMU_Evil.unity
+  artifactKey: Guid(04e76dfba7566084b82c0ae3173408aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MMU_Evil.unity using Guid(04e76dfba7566084b82c0ae3173408aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abecf26cee340bef1661fe4fae4cc58') in 0.007122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.474259 seconds.
+  path: Assets/Free Assets (ALL)/Nice Materials Pack 2/Shaders
+  artifactKey: Guid(8c97b086bc935453e891f63be0db50f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Nice Materials Pack 2/Shaders using Guid(8c97b086bc935453e891f63be0db50f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735cf28684936e32c639ca42050b0f5c') in 0.007791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006709 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\panda\Desktop\FoundationMathGame\FoundationMathGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (918ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (81.1 KB). Loaded Objects now: 4338.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 8.186000 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.449300 ms MarkObjects: 7.250200 ms  DeleteObjects: 0.142900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.986208 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs
+  artifactKey: Guid(6a8ac80373043124391c104bdcb5e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs using Guid(6a8ac80373043124391c104bdcb5e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b639cd78652933a0c900c6c6fcca747') in 0.013555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174684 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/sink1.prefab
+  artifactKey: Guid(c001a3fcfc5eb1743b5d94248289ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/sink1.prefab using Guid(c001a3fcfc5eb1743b5d94248289ff94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0e20c076a3766105efa786b7dff790') in 0.191796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/towel3.prefab
+  artifactKey: Guid(b282b4ea1453deb41906a9eaf37d6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/towel3.prefab using Guid(b282b4ea1453deb41906a9eaf37d6e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeeeda40bb8540ffe8b7e56853364c6') in 0.017536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/soap2.prefab
+  artifactKey: Guid(2880eec18b846a34396a9a7b87e5c15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/soap2.prefab using Guid(2880eec18b846a34396a9a7b87e5c15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60bcbc160c8a4d5458641fa0974b3b9') in 0.018181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/towel1.prefab
+  artifactKey: Guid(2b6e1a749da306648920734f716a0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/towel1.prefab using Guid(2b6e1a749da306648920734f716a0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f1d00b86430e73f86cc59c0e2f3846') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/toilet_paper_roll.prefab
+  artifactKey: Guid(c764d1d0273921641a0ed3c8bb41e77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/toilet_paper_roll.prefab using Guid(c764d1d0273921641a0ed3c8bb41e77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3449acfe88cbfc0b8d536453b0691417') in 0.029176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/soap1.prefab
+  artifactKey: Guid(5d47abc7ae683454a802d20784ddac87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Assets (ALL)/Assets_BathroomProps/prefabs/soap1.prefab using Guid(5d47abc7ae683454a802d20784ddac87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074304b187abd386b49d9da7ac258709') in 0.015647 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
