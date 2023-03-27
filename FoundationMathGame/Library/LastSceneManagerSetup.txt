@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MMU_Good.unity
+- path: Assets/Scenes/MMU_Evil.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
