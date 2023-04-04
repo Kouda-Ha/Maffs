@@ -18,6 +18,7 @@ namespace EZDoor
         private void Awake()
         {
             _camera = GetComponent<Camera>();
+            //Camera cam = _camera;
         }
 
         private void OnEnable()
