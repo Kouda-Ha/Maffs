@@ -8,10 +8,12 @@ public class Doors : MonoBehaviour
     public bool isLocked = false;
     public bool isOpened = false;
 
+    private Key keyInteract;
+
     void start()
     {
         animator = GetComponent<Animator>();
-
+        keyInteract = GetComponent<Key>();
     }
 
     void OnTriggerStay()
