@@ -1281,7 +1281,7 @@ GameObject:
   - component: {fileID: 65822195}
   - component: {fileID: 65822196}
   m_Layer: 0
-  m_Name: SliderHinge
+  m_Name: SliderDoorOffice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
