@@ -6,6 +6,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Events;
+
 public enum FlipMode
 {
     RightToLeft,
@@ -69,6 +70,7 @@ public class Book : MonoBehaviour {
 
     void Start()
     {
+
         if (!canvas) canvas=GetComponentInParent<Canvas>();
         if (!canvas) Debug.LogError("Book should be a child to canvas");
 
@@ -138,11 +140,13 @@ public class Book : MonoBehaviour {
     }
     void Update()
     {
+
         if (pageDragging && interactable)
         {
             UpdateBook();
         }
     }
+
     public void UpdateBook()
     {
         f = Vector3.Lerp(f, transformPoint(Input.mousePosition), Time.deltaTime * 10);

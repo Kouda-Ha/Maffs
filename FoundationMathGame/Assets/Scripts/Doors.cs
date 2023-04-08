@@ -30,7 +30,7 @@ public class Doors : MonoBehaviour
                 if (Input.GetKey(KeyCode.E))
                 {
                     animator.SetInteger("State", 1);
-                    yield return new WaitForSeconds(0.1f);
+                    yield return new WaitForSeconds(0.25f);
                     isOpened = true;
                 }
             }
@@ -39,7 +39,7 @@ public class Doors : MonoBehaviour
                 if (Input.GetKey(KeyCode.E))
                 {
                     animator.SetInteger("State", 2);
-                    yield return new WaitForSeconds(0.1f);
+                    yield return new WaitForSeconds(0.25f);
                     isOpened = false;
                     animator.SetInteger("State", 0);
                 }
