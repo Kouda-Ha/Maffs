@@ -6,21 +6,21 @@ public class SoundOnEnter : MonoBehaviour
 {
     public AudioClip Sound;
     public float Volume;
-    AudioSource audio;
+    AudioSource audioFile;
     public bool alreadyPlayed = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        audioFile = GetComponent<AudioSource>();
         
     }
     private void OnTriggerEnter(Collider other)
     {
         if (!alreadyPlayed)
         {
-            audio.PlayOneShot(Sound, Volume);
+            audioFile.PlayOneShot(Sound, Volume);
             alreadyPlayed = true;
 
         }
