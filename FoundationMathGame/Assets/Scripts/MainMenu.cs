@@ -15,4 +15,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Game Quit");
         Application.Quit();
     }
+
+    public void OnTriggerEnter(Collider collision)
+    {
+        SceneManager.LoadScene(2);
+
+    }
+
 }
