@@ -16274,7 +16274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sound: {fileID: 8300000, guid: 062777594ee6dab4197a11f4094bd7a3, type: 3}
-  Volume: 0.5
+  Volume: 0.25
   alreadyPlayed: 0
 --- !u!82 &881047238
 AudioSource:
@@ -22180,7 +22180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sound: {fileID: 8300000, guid: b07f2bcf6228acd45a062e5c111817d5, type: 3}
-  Volume: 5
+  Volume: 1
   alreadyPlayed: 0
 --- !u!82 &1184443428
 AudioSource:
@@ -29178,6 +29178,10 @@ PrefabInstance:
     - target: {fileID: 4459864851551516593, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864851551516604, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
