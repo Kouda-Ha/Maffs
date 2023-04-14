@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 [RequireComponent(typeof(Book))]
 public class AutoFlip : MonoBehaviour {
     public FlipMode Mode;
@@ -17,7 +19,24 @@ public class AutoFlip : MonoBehaviour {
         if (AutoStartFlip)
             StartFlipping();
         ControledBook.OnFlip.AddListener(new UnityEngine.Events.UnityAction(PageFlipped));
+        if (Input.GetKeyDown(KeyCode.M))
+            Debug.Log("work");
+            LeftFlip();
 	}
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            FlipRightPage();
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            FlipLeftPage();
+        }
+            
+    }
+
     void PageFlipped()
     {
         isFlipping = false;
@@ -26,6 +45,27 @@ public class AutoFlip : MonoBehaviour {
     {
         StartCoroutine(FlipToEnd());
     }
+
+    public void LeftFlip()
+    {
+        Debug.Log("leftactive");
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Debug.Log("FLIP LEFT NOW");
+
+        }
+    }
+
+    public void RightFlip()
+    {
+        Debug.Log("Right active");
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("FLIP RIGHT NOW");
+
+        }
+    }
+
     public void FlipRightPage()
     {
         if (isFlipping) return;

@@ -15,6 +15,7 @@ public class TextbookOpener : MonoBehaviour
     void Update()
     {
         OpenHandbook();
+  //      FlipPages();
     }
 
     private void OpenHandbook()
@@ -26,4 +27,14 @@ public class TextbookOpener : MonoBehaviour
 
         }
     }
+
+/*    public void FlipPages()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Debug.Log("FLIP NOW");
+
+        }
+    } */
+
 }

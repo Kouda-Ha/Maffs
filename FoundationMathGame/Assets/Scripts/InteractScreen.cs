@@ -12,8 +12,7 @@ public class InteractScreen : MonoBehaviour
     [SerializeField] private GameObject pcCam;
     [SerializeField] private GameObject playerCvs;
     private Coroutine zoomCoroutine;
-    private float targetFOV = 20, startFOV = 60;
-    private float counter = 0;
+//    private float counter = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +27,7 @@ public class InteractScreen : MonoBehaviour
             // 'E' to Enter the Interaction Screen
             if (Input.GetKey(KeyCode.E))
             {
-                counter = 0;
+            //    counter = 0;
                 playerCvs.SetActive(false);
                 player.GetComponent<FirstPersonController>().enabled = false;
                 player.GetComponentInChildren<Camera>().enabled = false;
@@ -40,7 +39,7 @@ public class InteractScreen : MonoBehaviour
             {
                 if (zoomCoroutine != null)
                     StopCoroutine(zoomCoroutine);
-                pcCam.GetComponent<Camera>().fieldOfView = 60;
+//                pcCam.GetComponent<Camera>().fieldOfView = 60;
                 playerCvs.SetActive(true);
                 player.GetComponent<FirstPersonController>().enabled = true;
                 player.GetComponentInChildren<Camera>().enabled = true;
