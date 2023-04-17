@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnTriggerEnter(Collider collision)
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
