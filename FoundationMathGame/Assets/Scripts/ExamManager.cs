@@ -15,6 +15,13 @@ public class ExamManager : MonoBehaviour
     private void Start()
     {
         generateQ();
+        UnlockMouseCursor();
+    }
+
+    void UnlockMouseCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void correct()

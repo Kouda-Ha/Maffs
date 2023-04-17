@@ -22,4 +22,10 @@ public class MainMenu : MonoBehaviour
 
     }
 
+   /* void UnlockMouseCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+   */
 }
