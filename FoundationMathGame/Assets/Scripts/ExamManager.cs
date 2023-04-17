@@ -15,9 +15,12 @@ public class ExamManager : MonoBehaviour
     private void Start()
     {
         generateQ();
-        UnlockMouseCursor();
+        UnlockMouseCursor(); // Unlock and make cursor visible upon exam enter
     }
 
+    // Very important! If it isn't unlocked and visible upon
+    // entering the exam scene, the player can not click an answer
+    // and is soft-locked in the game for eternity.
     void UnlockMouseCursor()
     {
         Cursor.lockState = CursorLockMode.None;
