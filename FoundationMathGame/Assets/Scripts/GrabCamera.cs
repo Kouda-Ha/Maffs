@@ -100,6 +100,7 @@ public class GrabCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         hasCamera = true;
+
     }
 
 
