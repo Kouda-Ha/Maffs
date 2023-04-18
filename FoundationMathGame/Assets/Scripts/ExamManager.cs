@@ -4,9 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
-
-// Derived from The Game Guy 'How To Make a Quiz Game with Multiple Choices in Unity': https://www.youtube.com/watch?v=G9QDFB2RQGA
 
 
 // The exam manager, shell of exam
