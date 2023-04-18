@@ -20,7 +20,8 @@ public class ExamAnswers : MonoBehaviour
         else
         {
             Debug.Log("wrong");
-            examManager.correct(); // just to move to next Q, we'll say both right for now
+            // answer answered wrong, no increment to score/grade
+            examManager.wrong();
         }
 
     }

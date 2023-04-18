@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
+
+// Derived from The Game Guy 'How To Make a Quiz Game with Multiple Choices in Unity': https://www.youtube.com/watch?v=G9QDFB2RQGA
+
 
 // The exam manager, shell of exam
 public class ExamManager : MonoBehaviour
@@ -11,11 +16,30 @@ public class ExamManager : MonoBehaviour
     public GameObject[] option;
     public int currentQ;
     public TMP_Text QuestionText;
+    public GameObject ExamPanel;
+    public GameObject EndExamPanel;
+    public TMP_Text ResultsText;
+
+    int totalExamQ = 0;
+    public int score;
 
     private void Start()
     {
+        totalExamQ = EQandA.Count;
         generateQ();
         UnlockMouseCursor(); // Unlock and make cursor visible upon exam enter
+    }
+
+    public void RedoExam()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    void EndExam()
+    {
+        ExamPanel.SetActive(false);
+        EndExamPanel.SetActive(true);
+        ResultsText.text = score + " / " + totalExamQ;
     }
 
     // Very important! If it isn't unlocked and visible upon
@@ -28,6 +52,16 @@ public class ExamManager : MonoBehaviour
     }
 
     public void correct()
+    {
+        score += 1;
+        // remove Q after answering it
+        EQandA.RemoveAt(currentQ);
+        // generate next question
+        generateQ();
+
+    }
+
+    public void wrong()
     {
         // remove Q after answering it
         EQandA.RemoveAt(currentQ);
@@ -56,10 +90,20 @@ public class ExamManager : MonoBehaviour
     // Generate Question
     void generateQ()
     {
-        currentQ = Random.Range(0, EQandA.Count);
+        // If the count is > 0, we still have question(s) available to generate
+        if(EQandA.Count > 0)
+        {
+            currentQ = Random.Range(0, EQandA.Count);
 
-        QuestionText.text = EQandA[currentQ].Question;
-        QAnswer();
+            QuestionText.text = EQandA[currentQ].Question;
+            QAnswer();
+        }
+        else
+        {
+            Debug.Log("no Q's left");
+            EndExam();
+        }
+        
 
     }
 
