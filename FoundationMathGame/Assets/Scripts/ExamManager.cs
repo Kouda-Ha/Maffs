@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
 // The exam manager, shell of exam
 public class ExamManager : MonoBehaviour
 {
