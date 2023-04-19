@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ClickAnswer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Color color;
     private Renderer render;
     private int clickCount = 0;
 

@@ -5,7 +5,6 @@ using TMPro;
 
 public class ExamAnswers : MonoBehaviour
 {
-
     public bool isCorrect = false;
     public ExamManager examManager;
 

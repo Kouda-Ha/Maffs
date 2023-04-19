@@ -32,8 +32,8 @@ public class MathsGame : MonoBehaviour
         {
             gameCamera.ReleaseCamera();
             beaten = true;  
-        }
-        
+        } 
+
     }
 
     private void OnTriggerEnter(Collider col)
