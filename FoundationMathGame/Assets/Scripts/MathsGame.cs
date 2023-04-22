@@ -8,7 +8,8 @@ public class MathsGame : MonoBehaviour
     ClickAnswer [] answers;
     GrabCamera gameCamera;
     bool beaten = false;
-    
+    public HealthManager playerHealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +33,10 @@ public class MathsGame : MonoBehaviour
                 }
             }
         }
-
+        if (anyClicked && playerHealth.health <= 0)
+        {
+            gameCamera.ReleaseCamera();
+        }
         if (correctClicked)
         {
             gameCamera.ReleaseCamera();
