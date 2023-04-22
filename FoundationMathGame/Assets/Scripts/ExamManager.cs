@@ -4,10 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
-
-// Derived from The Game Guy 'How To Make a Quiz Game with Multiple Choices in Unity': https://www.youtube.com/watch?v=G9QDFB2RQGA
-
 
 // The exam manager, shell of exam
 public class ExamManager : MonoBehaviour
@@ -58,7 +54,6 @@ public class ExamManager : MonoBehaviour
         EQandA.RemoveAt(currentQ);
         // generate next question
         generateQ();
-
     }
 
     public void wrong()
@@ -67,7 +62,6 @@ public class ExamManager : MonoBehaviour
         EQandA.RemoveAt(currentQ);
         // generate next question
         generateQ();
-
     }
 
     // Getting text from child of buttons A,B,C,D and setting it to that of the EQandA script
@@ -83,7 +77,6 @@ public class ExamManager : MonoBehaviour
             {
                 option[i].GetComponent<ExamAnswers>().isCorrect = true;
             }
-
         }
     }
 
@@ -91,7 +84,7 @@ public class ExamManager : MonoBehaviour
     void generateQ()
     {
         // If the count is > 0, we still have question(s) available to generate
-        if(EQandA.Count > 0)
+        if (EQandA.Count > 0)
         {
             currentQ = Random.Range(0, EQandA.Count);
 
@@ -103,8 +96,5 @@ public class ExamManager : MonoBehaviour
             Debug.Log("no Q's left");
             EndExam();
         }
-        
-
     }
-
 }

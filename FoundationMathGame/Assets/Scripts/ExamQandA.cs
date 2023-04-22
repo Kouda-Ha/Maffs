@@ -10,5 +10,4 @@ public class ExamQandA // Exam Questions and Answers
     public string Question;
     public string[] Answer;
     public int CorrectAns;
-    
 }

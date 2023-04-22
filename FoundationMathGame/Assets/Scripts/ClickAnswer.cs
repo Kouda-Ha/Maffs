@@ -1,13 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ClickAnswer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Color color;
+    public HealthManager playerHealth;
+    public HealthManager WrongAnswerDamage;
     private Renderer render;
     private int clickCount = 0;
+    [SerializeField] public bool isCorrect=false;
 
     public int GetNumClicks()
     {
@@ -20,5 +22,9 @@ public class ClickAnswer : MonoBehaviour
     void OnMouseDown()
     {
         clickCount++;
+        if (!isCorrect)
+        {
+            WrongAnswerDamage.DealDamage(playerHealth.gameObject);
+        }
     }
 }

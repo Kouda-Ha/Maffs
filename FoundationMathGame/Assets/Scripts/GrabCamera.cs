@@ -55,7 +55,6 @@ public class GrabCamera : MonoBehaviour
         theCamera.GetComponent<Camera>().enabled = false;
         thePlayer.SetActive(true);
 
-
     }
 
     public void ReleaseCamera()
