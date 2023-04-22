@@ -20,15 +20,20 @@ public class MathsGame : MonoBehaviour
     void Update()
     {
         bool anyClicked = false;
+        bool correctClicked = false;
         foreach (var answer in answers)
         {
             if (answer.GetNumClicks() > 0)
             {
                 anyClicked = true;
+                if (answer.isCorrect == true)
+                {
+                    correctClicked = true;
+                }
             }
         }
 
-        if (anyClicked)
+        if (correctClicked)
         {
             gameCamera.ReleaseCamera();
             beaten = true;  
