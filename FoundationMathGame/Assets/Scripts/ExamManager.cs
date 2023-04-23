@@ -31,11 +31,36 @@ public class ExamManager : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
+    public void TheEnd()
+    {
+        if (score >= 2)
+        {
+            GoodEnd();
+        }
+        else
+        {
+            BadEnd();
+        }
+    }
+
     void EndExam()
     {
         ExamPanel.SetActive(false);
         EndExamPanel.SetActive(true);
         ResultsText.text = score + " / " + totalExamQ;
+        
+    }
+
+    public void GoodEnd()
+    {
+        Debug.Log("Congrats! You passed!");
+        SceneManager.LoadScene(0);
+    }
+
+    public void BadEnd()
+    {
+        Debug.Log("Bad End! You failed!");
+        SceneManager.LoadScene(0);
     }
 
     // Very important! If it isn't unlocked and visible upon
