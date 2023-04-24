@@ -798,7 +798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &238689378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2580,6 +2580,116 @@ MonoBehaviour:
     - X = L + 2cm. h = Xcm. L * H = X-2 * X. == X-2^2
     - L * H + X = 7
     CorrectAns: 2
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: what is x
+      + y?'
+    Answer:
+    - 15
+    - -15
+    - 25
+    - -5
+    CorrectAns: 1
+  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is xy?'
+    Answer:
+    - 55
+    - 25
+    - -5
+    - 50
+    CorrectAns: 4
+  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is x/y?'
+    Answer:
+    - 5
+    - 2
+    - 50
+    - -0.5
+    CorrectAns: 2
+  - Question: "Susan buys 7 apples at x pence, 4 bananas at y pence. She spends \xA31,
+      what is the equation for this? "
+    Answer:
+    - 7x + 4y = 100
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
+      + y) \u2212 (3x + 2y) + x"
+    Answer:
+    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
+      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
+      xy"
+    - b
+    - c
+    - d
+    CorrectAns: 1
   - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
       + y) \u2212 (3x + 2y) + x"
     Answer:
