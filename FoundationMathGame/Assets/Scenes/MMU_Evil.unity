@@ -8937,7 +8937,7 @@ PrefabInstance:
       objectReference: {fileID: 876916053}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.size
-      value: 26
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[0]
@@ -8974,7 +8974,7 @@ PrefabInstance:
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: a08e67f55d168d94ab2f66f552a35b8c, type: 3}
+      objectReference: {fileID: 21300000, guid: cc0aaac76edebfd4cba82bb99a1fe7dc, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[9]
       value: 
@@ -9046,11 +9046,11 @@ PrefabInstance:
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[26]
       value: 
-      objectReference: {fileID: 21300000, guid: 126e7a59bd11e5e4b8f5ebefd41a143c, type: 3}
+      objectReference: {fileID: 21300000, guid: dbe7703e8e76edd419392025f74582fb, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[27]
       value: 
-      objectReference: {fileID: 21300000, guid: 126e7a59bd11e5e4b8f5ebefd41a143c, type: 3}
+      objectReference: {fileID: 21300000, guid: dbe7703e8e76edd419392025f74582fb, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: OnFlip.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -11440,12 +11440,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1017393286, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393286, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9
+      objectReference: {fileID: 0}
     - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
       propertyPath: m_text
-      value: 'If you die in here, it resets all of the keys and computers...
+      value: 'Answering a question wrong will hurt you. If you die in here, it resets
+        all of the keys and computers...
 
-        I
-        suggest taking notes'
+        I suggest taking notes or you might
+        never escape.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_fontSize
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_margin.z
+      value: -3.722462
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1366984958782355646, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
       propertyPath: player
@@ -18187,12 +18208,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2082772809}
     m_Modifications:
+    - target: {fileID: 1017393286, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.66
+      objectReference: {fileID: 0}
     - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
       propertyPath: m_text
-      value: 'Be careful, read pages 1 - 3 in the textbook before going into office
-        1
-
-        - a friend'
+      value: Be careful! Read Chapter 1 before heading to office 1, the key to office
+        2 is inside there, and it's going to ask you a lot of maths.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_fontSize
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017393287, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1366984958782355646, guid: 5bf0b04db925d31458955c2faef58b1a, type: 3}
       propertyPath: player
@@ -37794,7 +37825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: jumpPower
-      value: 4.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: sprintFOV
@@ -37806,7 +37837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: enableJump
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: lockCursor
@@ -37818,11 +37849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: sprintSpeed
-      value: 20
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: enableSprint
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: sprintCooldown
@@ -49580,7 +49611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977144537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.9, y: 757.7, z: -793.2}
+  m_LocalPosition: {x: -16.9, y: 757.7, z: -792.9}
   m_LocalScale: {x: 50, y: 100, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
