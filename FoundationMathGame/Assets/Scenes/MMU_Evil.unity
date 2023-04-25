@@ -6537,7 +6537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6
+  m_text: -8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -50124,7 +50124,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1348698791, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: isCorrect
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1348698791, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: playerHealth
@@ -50136,7 +50136,7 @@ PrefabInstance:
       objectReference: {fileID: 1364920028}
     - target: {fileID: 1003691997389464211, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: 16
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1003691997389464211, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
@@ -50160,7 +50160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1032940743966088446, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1032940743966088446, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
@@ -50184,8 +50184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: "Evaluate the expression \n\n5x + 3z - 3x\n\nwhen:\nw = 3\nx = 5\nz
-        = 2\n\n"
+      value: "Evaluate the expression \n\n10x\n\nwhen:\nw = 3\nx = 5\nz = 2\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
@@ -50322,7 +50321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1364920028}
   WrongAnswerDamage: {fileID: 1364920028}
-  isCorrect: 1
+  isCorrect: 0
 --- !u!1 &1928709342
 GameObject:
   m_ObjectHideFlags: 0
@@ -53493,7 +53492,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6
+  m_text: 50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -55178,7 +55177,7 @@ PrefabInstance:
       objectReference: {fileID: 1364920028}
     - target: {fileID: 1003691997389464211, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1003691997389464211, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
@@ -55202,7 +55201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1032940743966088446, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: 30
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1032940743966088446, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
@@ -55226,8 +55225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: "Evaluate the expression \n\n5x + 3z - 3x\n\nwhen:\nw = 3\nx = 5\nz
-        = 2\n\n"
+      value: "Evaluate the expression \n\n17 - 3w\n\nwhen:\nw = 3\nx = 5\nz = 2\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
