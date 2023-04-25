@@ -54,7 +54,7 @@ public class ExamManager : MonoBehaviour
     public void GoodEnd()
     {
         Debug.Log("Congrats! You passed!");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(5);
     }
 
     public void BadEnd()
