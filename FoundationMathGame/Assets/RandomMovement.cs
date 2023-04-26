@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI; //important
 
+// Code from this tutorial: https://www.youtube.com/watch?v=dYs0WRzzoRc
+
 //if you use this code you are contractually obligated to like the YT video
 public class RandomMovement : MonoBehaviour //don't forget to change the script name if you haven't
 {
@@ -16,7 +18,6 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
     {
         agent = GetComponent<NavMeshAgent>();
     }
-
 
     void Update()
     {
@@ -47,6 +48,5 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
         result = Vector3.zero;
         return false;
     }
-
 
 }
