@@ -10,9 +10,10 @@ using static UnityEngine.GraphicsBuffer;
 //if you use this code you are contractually obligated to like the YT video
 public class RandomMovement : MonoBehaviour //don't forget to change the script name if you haven't
 {
-    [SerializeField] private Transform parentPos;
+
     public NavMeshAgent agent;
     public float range; //radius of sphere
+    public bool isMoving;
 
     public Transform centrePoint; //centre of the area the agent wants to move around in
     //instead of centrePoint you can set it as the transform of the agent if you don't care about a specific area
@@ -46,12 +47,13 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
             //the 1.0f is the max distance from the random point to a point on the navmesh, might want to increase if range is big
             //or add a for loop like in the documentation
             result = hit.position;
-            parentPos.LookAt(hit.position);
+            gameObject.transform.LookAt(hit.position);
+            isMoving = true;
             return true;
         }
         
-//        transform.LookAt(target, Vector3.left);
         result = Vector3.zero;
+        isMoving = false;
         return false;
     }
 
