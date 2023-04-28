@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI; //important
+using static UnityEngine.GraphicsBuffer;
 
 // Code from this tutorial: https://www.youtube.com/watch?v=dYs0WRzzoRc
 // Links to the code here: https://github.com/JonDevTutorial/RandomNavMeshMovement
@@ -9,6 +10,7 @@ using UnityEngine.AI; //important
 //if you use this code you are contractually obligated to like the YT video
 public class RandomMovement : MonoBehaviour //don't forget to change the script name if you haven't
 {
+    [SerializeField] private Transform parentPos;
     public NavMeshAgent agent;
     public float range; //radius of sphere
 
@@ -32,6 +34,7 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
             }
         }
 
+
     }
     bool RandomPoint(Vector3 center, float range, out Vector3 result)
     {
@@ -43,9 +46,11 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
             //the 1.0f is the max distance from the random point to a point on the navmesh, might want to increase if range is big
             //or add a for loop like in the documentation
             result = hit.position;
+            parentPos.LookAt(hit.position);
             return true;
         }
-
+        
+//        transform.LookAt(target, Vector3.left);
         result = Vector3.zero;
         return false;
     }
