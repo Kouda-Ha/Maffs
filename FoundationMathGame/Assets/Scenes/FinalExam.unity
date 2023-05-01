@@ -2780,153 +2780,160 @@ MonoBehaviour:
     - c
     - d
     CorrectAns: 2
-  - Question: The Answer is A
+  - Question: Which solves the following equation? 6x + 1 = 10
     Answer:
     - a
+    - b
+    - x = 3/2
+    - d
+    CorrectAns: 3
+  - Question: Which solves the following equation? 3y - 5 = 13
+    Answer:
+    - y = 6
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: Which solves the following equation? 4z + 3 = 3z + 12
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - z = 9
+    CorrectAns: 4
+  - Question: Which solves the following equation? 5u - 8 = 4u + 11
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - u = 19
+    CorrectAns: 4
+  - Question: Which solves the following equation?  16 - 2s = 4 + 4s
     Answer:
     - a
+    - b
+    - s = 2
+    - d
+    CorrectAns: 3
+  - Question: 'Find the value of x satisfying the following equation: 14 - 3x = 5(x
+      - 10)'
+    Answer:
+    - a
+    - x = 8
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Find the value of x satisfying the following equation: 3(x+2) = 8
+      -(2-x)'
+    Answer:
+    - x = 0
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'Find the value of x satisfying the following equation: 5 = x+3 / x-3'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - x = 9/2
+    CorrectAns: 4
+  - Question: 'Rearrange the following equation to make x the subject: d = x/t'
     Answer:
     - a
+    - b
+    - x = dt
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: a = b + x'
+    Answer:
+    - x = a-b
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'Rearrange the following equation to make x the subject: r = xt - u'
     Answer:
     - a
+    - b
+    - x = r+u / t
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: p = 1/x'
+    Answer:
+    - a
+    - b
+    - x = 1 / p
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: v = x-1 /
+      y'
+    Answer:
+    - a
+    - x = vy + 1
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Given the equation v = u + at, transpose it to make 'a' the subject.
+    Answer:
+    - a = v-u / t
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: Given the equation v = u + at, find the value when u = 20, v = 25,
+      and t = 5.
+    Answer:
+    - a
+    - b
+    - 3
+    - d
+    CorrectAns: 3
+  - Question: Given the formula v = wr, transpose the formula to make r the subject.
+    Answer:
+    - a
+    - r = v / w
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Given the formula v = wr, find the value of r when v = 16, and w =
+      5
+    Answer:
+    - a
+    - 3.2
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Transpose the formula PV / T = C to make V the subject
+    Answer:
+    - a
+    - V = CT / P
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Calculate the value of V when C = 24, T = 36, nd P = 144 when PV /
+      T
+    Answer:
+    - a
+    - 6
+    - c
+    - d
+    CorrectAns: 1
+  - Question: Transpose the vector equation r = q + vt to make V the subject
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - v = r-q / t
+    CorrectAns: 4
+  - Question: The equation S = (u+v)t / 2 is used when an object moves with constant
+      acceleration. Transpose it to make v the subject
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
+    - v = 2s - ut / t
+    CorrectAns: 4
   option:
   - {fileID: 213531086}
   - {fileID: 957917876}
