@@ -9048,7 +9048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1229983784}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &290003084
 Transform:
@@ -11733,7 +11733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &351484358
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20496,7 +20496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1364920028}
   WrongAnswerDamage: {fileID: 1364920028}
-  isCorrect: 0
+  isCorrect: 1
 --- !u!114 &690552685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29413,7 +29413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1035775850}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &1035775853
 Transform:
@@ -32724,7 +32724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1917042170}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!1001 &1137572910
 PrefabInstance:
@@ -37314,7 +37314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1290476551}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &1290476553
 Transform:
@@ -39662,7 +39662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372152633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.94, y: 9, z: -7.25}
+  m_LocalPosition: {x: 8.48, y: 6.52, z: -7.93}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47028,7 +47028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1667854982}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &1667854981
 Transform:
@@ -50667,7 +50667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1789643644}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &1789643647
 Transform:
@@ -55472,7 +55472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1988378270}
-  isLocked: 0
+  isLocked: 1
   isOpened: 0
 --- !u!4 &1988378273
 Transform:
