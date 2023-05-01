@@ -2822,7 +2822,7 @@ MonoBehaviour:
     - x = 8
     - c
     - d
-    CorrectAns: 1
+    CorrectAns: 2
   - Question: 'Find the value of x satisfying the following equation: 3(x+2) = 8
       -(2-x)'
     Answer:
@@ -2918,7 +2918,7 @@ MonoBehaviour:
     - 6
     - c
     - d
-    CorrectAns: 1
+    CorrectAns: 2
   - Question: Transpose the vector equation r = q + vt to make V the subject
     Answer:
     - a
