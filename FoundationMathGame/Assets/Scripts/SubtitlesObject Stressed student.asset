@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9f2dc93542c664fb62c7b76a0e386f, type: 3}
+  m_Name: SubtitlesObject Stressed student
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 99332abb724afd14ab65c3bf9ed0b8f9, type: 3}
+  subtitle: "[door banging] I don\u2019t know how to get out. I can\u2019t finish
+    maths! I don\u2019t know my way out of this labyrinth! I can\u2019t open this
+    door! This is really annoying! I\u2019ve died like seven times! I absolutely
+    HATE maths! But I shouldn\u2019t say it too loud because the STUPID MANNEQUIN
+    SHOWS UP! [exasperated sigh] Dammit! \u2026. I wonder where that other guy is?"

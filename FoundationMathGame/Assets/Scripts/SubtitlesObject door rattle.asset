@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa9f2dc93542c664fb62c7b76a0e386f, type: 3}
-  m_Name: SubtitlesObject
+  m_Name: SubtitlesObject door rattle
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: e9335fb77319d1e49a7e784563e1fe5b, type: 3}
-  subtitle: "[banging on door] [muffled voice] Hey! [door rattle] The doll is alive!
-    It moves! You need to avoid it. I know there\u2019s someone in there! Just avoid
-    the doll, ok? I\u2019m gonna try to find a way out\u2026"
+  clip: {fileID: 8300000, guid: 3b5b2d6cfa71f3e4ebec428329c7c901, type: 3}
+  subtitle: '[door knob rattling]'
