@@ -2639,139 +2639,147 @@ MonoBehaviour:
     - 36
     - d
     CorrectAns: 3
-  - Question: The Answer is A
+  - Question: 'Expand the brackets for the following expression, chose the most simplified
+      option: 4)x + y)'
     Answer:
-    - a
+    - 4x + 4y
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'What''s the factorise version of the following expression: 7u + 21v'
     Answer:
-    - a
+    - 7(u + 3v)
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'What''s the factorise version of the following expression: 16x + 24y'
+    Answer:
+    - a
+    - b
+    - 8(2x + 3y)
+    - d
+    CorrectAns: 3
+  - Question: 'What''s the factorise version of the following expression:  z^2 +
+      3z'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - z(z + 3)
+    CorrectAns: 4
+  - Question: 'What''s the factorise version of the following expression:  8p + 20q
+      + 12r'
     Answer:
-    - a
+    - 4(2p - 5q + 3r)
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'What''s the factorise version of the following expression:  2a^2 -
+      11ab'
+    Answer:
+    - a
+    - a(2a - 11b)
+    - c
+    - d
+    CorrectAns: 2
+  - Question: 'What''s the factorise version of the following expression:  9xyz +
+      8yz'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - yz(9x + 8)
+    CorrectAns: 4
+  - Question: 'What is the expand of the following? :  (x+5)(x+2)'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - x^2 + 7x + 10
+    CorrectAns: 4
+  - Question: 'What is the expand of the following? :  (x-2)(x+1)'
     Answer:
-    - a
+    - x^2 - x - 2
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'What is the expand of the following? : (y-4)(y+4)'
     Answer:
     - a
+    - b
+    - y^2 - 16
+    - d
+    CorrectAns: 3
+  - Question: 'Factorise the following expression: x^2 - x - 6'
+    Answer:
+    - a
+    - b
+    - (x-2)(x-3)
+    - d
+    CorrectAns: 3
+  - Question: 'Use the laws of indicies to simplify the following: a^3 * a^2'
+    Answer:
+    - a^5
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'Use the laws of indicies to simplify the following: a^3 x a^-1'
     Answer:
-    - a
+    - a^5
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'Use the laws of indicies to simplify the following: a^31 * a^29'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - a^60
+    CorrectAns: 4
+  - Question: 'Use the laws of indicies to simplify the following: a^6 / a^4'
     Answer:
     - a
     - b
     - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
+    - a^2
+    CorrectAns: 4
+  - Question: 'Use the laws of indicies to simplify the following: a^3 * a^2 / a^7'
     Answer:
     - a
+    - b
+    - a^-2
+    - d
+    CorrectAns: 3
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: 2^2 * 2^3'
+    Answer:
+    - a
+    - b
+    - 2^5
+    - d
+    CorrectAns: 3
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: 3^2 * 3^3 / 3^4'
+    Answer:
+    - 3
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: The Answer is A
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: (2^3)^4'
     Answer:
     - a
-    - b
+    - 2^12
     - c
     - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: The Answer is A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAns: 1
+    CorrectAns: 2
   - Question: The Answer is A
     Answer:
     - a
