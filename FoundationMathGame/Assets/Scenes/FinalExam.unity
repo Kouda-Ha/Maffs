@@ -2563,139 +2563,358 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EQandA:
-  - Question: 'Q1 A: Evaluate the expression when         x = -2, y = -1, z = 3:                                                                         
-      (x+y)z/x+3'
-    Answer:
-    - (-2 -1) / -2 + 3 == 9 / -5 == -1.8
-    - (-2 -1) / -2 + 3 == 1.5
-    - (-2 -1) (3) / -2 + 3   ==   -9 / 1   ==   -9
-    - (-2 -1) (3) / -2 + 3   ==   9 / 1   ==   9
-    CorrectAns: 3
-  - Question: 'Q1 B: he length of a rectangle is 2 cm more than the height, and the
-      height is x cm. Write the algebraic expressions to calculate the length and
-      area of the rectangle in terms of x.'
-    Answer:
-    - At least 12
-    - Length = x+2. Area = Length * Height. == (x + 2)x
-    - X = L + 2cm. h = Xcm. L * H = X-2 * X. == X-2^2
-    - L * H + X = 7
-    CorrectAns: 2
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
-    Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
-    Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: what is x
-      + y?'
-    Answer:
-    - 15
-    - -15
-    - 25
-    - -5
-    CorrectAns: 1
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is xy?'
-    Answer:
-    - 55
-    - 25
-    - -5
-    - 50
-    CorrectAns: 4
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is x/y?'
-    Answer:
-    - 5
-    - 2
-    - 50
-    - -0.5
-    CorrectAns: 2
-  - Question: "Susan buys 7 apples at x pence, 4 bananas at y pence. She spends \xA31,
-      what is the equation for this? "
+  - Question: "Sue buys 7 apples at x pence each and 4 bananas at y pence each. She
+      spends \xA31. Which is the equations for this?"
     Answer:
     - 7x + 4y = 100
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: "Jarred pays \xA3x for a bus ticket. The following week the price raises
+      by \xA32. In total he spends \xA3T on two bus tickets. Which equation matches
+      this information?"
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - 2x + 2 = T
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Fred runs x miles and John runs 3 times as far. John runs y miles.
+      Which equation relates to x and y?
+    Answer:
+    - a
+    - b
+    - c
+    - y = 3x
+    CorrectAns: 4
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  2y - 11'
+    Answer:
+    - 13
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  w + 2z'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - c
+    - 7
+    CorrectAns: 4
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  (w + 2)z'
+    Answer:
+    - a
+    - 10
+    - c
+    - d
+    CorrectAns: 2
+  - Question: 'When w = 3, x = 5, y = 2, evaluate: 3x - y + z'
+    Answer:
+    - 5
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'When w = 3, x = 5, y = 2, evaluate: y/w'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - 4
+    - d
+    CorrectAns: 3
+  - Question: 'When x = 3 and y = 2, find the value of the following expression: 
+      (x + y)^2'
+    Answer:
+    - a
+    - b
+    - c
+    - 25
+    CorrectAns: 4
+  - Question: 'When x = 3 and y = 2, find the value of the following expression: 
+      (xy)^2'
+    Answer:
+    - a
+    - b
+    - 36
+    - d
+    CorrectAns: 3
+  - Question: The Answer is A
+    Answer:
+    - a
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: The Answer is A
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: The Answer is A
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: The Answer is A
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: The Answer is A
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: The Answer is A
+    Answer:
+    - a
     - b
     - c
     - d
