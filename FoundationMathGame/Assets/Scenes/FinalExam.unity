@@ -2563,143 +2563,377 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EQandA:
-  - Question: 'Q1 A: Evaluate the expression when         x = -2, y = -1, z = 3:                                                                         
-      (x+y)z/x+3'
-    Answer:
-    - (-2 -1) / -2 + 3 == 9 / -5 == -1.8
-    - (-2 -1) / -2 + 3 == 1.5
-    - (-2 -1) (3) / -2 + 3   ==   -9 / 1   ==   -9
-    - (-2 -1) (3) / -2 + 3   ==   9 / 1   ==   9
-    CorrectAns: 3
-  - Question: 'Q1 B: he length of a rectangle is 2 cm more than the height, and the
-      height is x cm. Write the algebraic expressions to calculate the length and
-      area of the rectangle in terms of x.'
-    Answer:
-    - At least 12
-    - Length = x+2. Area = Length * Height. == (x + 2)x
-    - X = L + 2cm. h = Xcm. L * H = X-2 * X. == X-2^2
-    - L * H + X = 7
-    CorrectAns: 2
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
-    Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
-    Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
-    - b
-    - c
-    - d
-    CorrectAns: 1
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: what is x
-      + y?'
-    Answer:
-    - 15
-    - -15
-    - 25
-    - -5
-    CorrectAns: 1
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is xy?'
-    Answer:
-    - 55
-    - 25
-    - -5
-    - 50
-    CorrectAns: 4
-  - Question: 'Evaluate the algebraic expression when x = 10 and y = 5: What is x/y?'
-    Answer:
-    - 5
-    - 2
-    - 50
-    - -0.5
-    CorrectAns: 2
-  - Question: "Susan buys 7 apples at x pence, 4 bananas at y pence. She spends \xA31,
-      what is the equation for this? "
+  - Question: "Sue buys 7 apples at x pence each and 4 bananas at y pence each. She
+      spends \xA31. Which is the equations for this?"
     Answer:
     - 7x + 4y = 100
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: "Jarred pays \xA3x for a bus ticket. The following week the price raises
+      by \xA32. In total he spends \xA3T on two bus tickets. Which equation matches
+      this information?"
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - 2x + 2 = T
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Fred runs x miles and John runs 3 times as far. John runs y miles.
+      Which equation relates to x and y?
+    Answer:
+    - a
+    - b
+    - c
+    - y = 3x
+    CorrectAns: 4
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  2y - 11'
+    Answer:
+    - 13
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  w + 2z'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - c
+    - 7
+    CorrectAns: 4
+  - Question: 'When w = 3, x = 5, y = 2, evaluate:  (w + 2)z'
+    Answer:
+    - a
+    - 10
+    - c
+    - d
+    CorrectAns: 2
+  - Question: 'When w = 3, x = 5, y = 2, evaluate: 3x - y + z'
+    Answer:
+    - 5
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'When w = 3, x = 5, y = 2, evaluate: y/w'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - 4
+    - d
+    CorrectAns: 3
+  - Question: 'When x = 3 and y = 2, find the value of the following expression: 
+      (x + y)^2'
+    Answer:
+    - a
+    - b
+    - c
+    - 25
+    CorrectAns: 4
+  - Question: 'When x = 3 and y = 2, find the value of the following expression: 
+      (xy)^2'
+    Answer:
+    - a
+    - b
+    - 36
+    - d
+    CorrectAns: 3
+  - Question: 'Expand the brackets for the following expression, chose the most simplified
+      option: 4)x + y)'
+    Answer:
+    - 4x + 4y
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'What''s the factorise version of the following expression: 7u + 21v'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - 7(u + 3v)
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'What''s the factorise version of the following expression: 16x + 24y'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - 8(2x + 3y)
+    - d
+    CorrectAns: 3
+  - Question: 'What''s the factorise version of the following expression:  z^2 +
+      3z'
+    Answer:
+    - a
+    - b
+    - c
+    - z(z + 3)
+    CorrectAns: 4
+  - Question: 'What''s the factorise version of the following expression:  8p + 20q
+      + 12r'
+    Answer:
+    - 4(2p - 5q + 3r)
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'What''s the factorise version of the following expression:  2a^2 -
+      11ab'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - a(2a - 11b)
+    - c
+    - d
+    CorrectAns: 2
+  - Question: 'What''s the factorise version of the following expression:  9xyz +
+      8yz'
+    Answer:
+    - a
+    - b
+    - c
+    - yz(9x + 8)
+    CorrectAns: 4
+  - Question: 'What is the expand of the following? :  (x+5)(x+2)'
+    Answer:
+    - a
+    - b
+    - c
+    - x^2 + 7x + 10
+    CorrectAns: 4
+  - Question: 'What is the expand of the following? :  (x-2)(x+1)'
+    Answer:
+    - x^2 - x - 2
     - b
     - c
     - d
     CorrectAns: 1
-  - Question: "Q1 C: Expand and simplify the following expression (2 \u2212 y)(x
-      + y) \u2212 (3x + 2y) + x"
+  - Question: 'What is the expand of the following? : (y-4)(y+4)'
     Answer:
-    - "(2 \u2212 y)(x + y) \u2212 (3x + 2y) + x = 2x \u2212 xy \u2212 y^2 + 2y \u2212
-      3x \u2212 2y + x  == \u2212y^2 \u2212 xy + 2y \u2212 2y == \u2212y^2 \u2212
-      xy"
+    - a
+    - b
+    - y^2 - 16
+    - d
+    CorrectAns: 3
+  - Question: 'Factorise the following expression: x^2 - x - 6'
+    Answer:
+    - a
+    - b
+    - (x-2)(x-3)
+    - d
+    CorrectAns: 3
+  - Question: 'Use the laws of indicies to simplify the following: a^3 * a^2'
+    Answer:
+    - a^5
     - b
     - c
     - d
     CorrectAns: 1
+  - Question: 'Use the laws of indicies to simplify the following: a^3 x a^-1'
+    Answer:
+    - a^5
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Use the laws of indicies to simplify the following: a^31 * a^29'
+    Answer:
+    - a
+    - b
+    - c
+    - a^60
+    CorrectAns: 4
+  - Question: 'Use the laws of indicies to simplify the following: a^6 / a^4'
+    Answer:
+    - a
+    - b
+    - c
+    - a^2
+    CorrectAns: 4
+  - Question: 'Use the laws of indicies to simplify the following: a^3 * a^2 / a^7'
+    Answer:
+    - a
+    - b
+    - a^-2
+    - d
+    CorrectAns: 3
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: 2^2 * 2^3'
+    Answer:
+    - a
+    - b
+    - 2^5
+    - d
+    CorrectAns: 3
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: 3^2 * 3^3 / 3^4'
+    Answer:
+    - 3
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Which is the simplified expression for the following, when simplified
+      as far as possible: (2^3)^4'
+    Answer:
+    - a
+    - 2^12
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Which solves the following equation? 6x + 1 = 10
+    Answer:
+    - a
+    - b
+    - x = 3/2
+    - d
+    CorrectAns: 3
+  - Question: Which solves the following equation? 3y - 5 = 13
+    Answer:
+    - y = 6
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: Which solves the following equation? 4z + 3 = 3z + 12
+    Answer:
+    - a
+    - b
+    - c
+    - z = 9
+    CorrectAns: 4
+  - Question: Which solves the following equation? 5u - 8 = 4u + 11
+    Answer:
+    - a
+    - b
+    - c
+    - u = 19
+    CorrectAns: 4
+  - Question: Which solves the following equation?  16 - 2s = 4 + 4s
+    Answer:
+    - a
+    - b
+    - s = 2
+    - d
+    CorrectAns: 3
+  - Question: 'Find the value of x satisfying the following equation: 14 - 3x = 5(x
+      - 10)'
+    Answer:
+    - a
+    - x = 8
+    - c
+    - d
+    CorrectAns: 2
+  - Question: 'Find the value of x satisfying the following equation: 3(x+2) = 8
+      -(2-x)'
+    Answer:
+    - x = 0
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Find the value of x satisfying the following equation: 5 = x+3 / x-3'
+    Answer:
+    - a
+    - b
+    - c
+    - x = 9/2
+    CorrectAns: 4
+  - Question: 'Rearrange the following equation to make x the subject: d = x/t'
+    Answer:
+    - a
+    - b
+    - x = dt
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: a = b + x'
+    Answer:
+    - x = a-b
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: 'Rearrange the following equation to make x the subject: r = xt - u'
+    Answer:
+    - a
+    - b
+    - x = r+u / t
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: p = 1/x'
+    Answer:
+    - a
+    - b
+    - x = 1 / p
+    - d
+    CorrectAns: 3
+  - Question: 'Rearrange the following equation to make x the subject: v = x-1 /
+      y'
+    Answer:
+    - a
+    - x = vy + 1
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Given the equation v = u + at, transpose it to make 'a' the subject.
+    Answer:
+    - a = v-u / t
+    - b
+    - c
+    - d
+    CorrectAns: 1
+  - Question: Given the equation v = u + at, find the value when u = 20, v = 25,
+      and t = 5.
+    Answer:
+    - a
+    - b
+    - 3
+    - d
+    CorrectAns: 3
+  - Question: Given the formula v = wr, transpose the formula to make r the subject.
+    Answer:
+    - a
+    - r = v / w
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Given the formula v = wr, find the value of r when v = 16, and w =
+      5
+    Answer:
+    - a
+    - 3.2
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Transpose the formula PV / T = C to make V the subject
+    Answer:
+    - a
+    - V = CT / P
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Calculate the value of V when C = 24, T = 36, nd P = 144 when PV /
+      T
+    Answer:
+    - a
+    - 6
+    - c
+    - d
+    CorrectAns: 2
+  - Question: Transpose the vector equation r = q + vt to make V the subject
+    Answer:
+    - a
+    - b
+    - c
+    - v = r-q / t
+    CorrectAns: 4
+  - Question: The equation S = (u+v)t / 2 is used when an object moves with constant
+      acceleration. Transpose it to make v the subject
+    Answer:
+    - a
+    - b
+    - c
+    - v = 2s - ut / t
+    CorrectAns: 4
   option:
   - {fileID: 213531086}
   - {fileID: 957917876}
