@@ -46766,8 +46766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_text
-      value: "Evaluate the expression \n\n(x+1)(y-7)\n\nwhen:\nw = 3\nx = 5\nz =
-        2\n\n"
+      value: "Evaluate the expression \n\n(x+1)(y-7)\n\nwhen:\nx = 5\ny = 12"
       objectReference: {fileID: 0}
     - target: {fileID: 4124402905762340484, guid: 9311458f43393f3418aa896263b84a67, type: 3}
       propertyPath: m_fontSize
