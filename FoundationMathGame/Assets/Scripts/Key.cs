@@ -6,7 +6,7 @@ public class Key : MonoBehaviour
 {
     public GameObject keyObject;
     public Doors doorInteract;
-    // Start is called before the first frame update
+
     void Start()
     {
         keyObject.SetActive(true);
@@ -23,4 +23,5 @@ public class Key : MonoBehaviour
         }
         
     }
+
 }
