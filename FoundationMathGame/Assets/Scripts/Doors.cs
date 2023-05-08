@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Door script. Doors are either open or closed, and locked or unlocked. 
 public class Doors : MonoBehaviour
 {
     public Animator animator;
+    // Automatically have doors unlocked and closed, lockable in the Unity inspector
     public bool isLocked = false;
     public bool isOpened = false;
 
@@ -23,6 +25,7 @@ public class Doors : MonoBehaviour
 
     IEnumerator DoorState()
     {
+        // If the door is not locked and isn't open, open it/play open animation on 'E' input
         if (isLocked == false)
         {
             if (isOpened == false)
@@ -34,6 +37,7 @@ public class Doors : MonoBehaviour
                     isOpened = true;
                 }
             }
+            // If the door is not locked and is open, close it/play close animation on 'E' input
             if (isOpened == true)
             {
                 if (Input.GetKey(KeyCode.E))
@@ -46,5 +50,4 @@ public class Doors : MonoBehaviour
             }
         }
     }
-
 }

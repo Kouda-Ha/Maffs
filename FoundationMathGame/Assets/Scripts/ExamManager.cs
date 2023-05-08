@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-// The exam manager, shell of exam
+// The exam manager, shell of the exam.
 public class ExamManager : MonoBehaviour
 {
     public List<ExamQandA> EQandA;
@@ -15,8 +15,9 @@ public class ExamManager : MonoBehaviour
     public GameObject ExamPanel;
     public GameObject EndExamPanel;
     public TMP_Text ResultsText;
-    public int PassMinimum = 20; // Exam has 50 questions, 40% is needed to pass exam, so 40% of 50 = 20
-
+    // Exam has 50 questions, 40% is needed to pass exam, so 40% of 50 = 20
+    public int PassMinimum = 20;
+    // The total exam questions is decided in the inspector in Unity
     int totalExamQ = 0;
     public int score;
 
@@ -24,7 +25,8 @@ public class ExamManager : MonoBehaviour
     {
         totalExamQ = EQandA.Count;
         generateQ();
-        UnlockMouseCursor(); // Unlock and make cursor visible upon exam enter
+        // Unlocks and makes mouse cursor visible upon exam enter
+        UnlockMouseCursor(); 
     }
 
     public void TheEnd()
@@ -32,16 +34,19 @@ public class ExamManager : MonoBehaviour
         // There are 50 questions, 40% need to be correct to pass
         if (score >= PassMinimum)
         {
+            // If pass, the good scene loads with the final cutscene that is happy, then closes the game
             GoodEnd();
         }
         else
         {
+            // If exam fails, a cutscene plays immediately and informs you before closing out the game
             BadEnd();
         }
     }
 
     void EndExam()
     {
+        // Swap over the exam canvas panel and show the result panel with the score the player scored in the exam
         ExamPanel.SetActive(false);
         EndExamPanel.SetActive(true);
         ResultsText.text = score + " / " + totalExamQ;
@@ -50,13 +55,13 @@ public class ExamManager : MonoBehaviour
 
     public void GoodEnd()
     {
-        Debug.Log("Congrats! You passed!");
+        // Load scene '5' in build, the good ending (MMU_EndGood)
         SceneManager.LoadScene(5);
     }
 
     public void BadEnd()
     {
-        Debug.Log("Bad End! You failed!");
+        // Load scene '6' in build, the bad ending (MMU_EndBad)
         SceneManager.LoadScene(6);
     }
 
@@ -71,8 +76,9 @@ public class ExamManager : MonoBehaviour
 
     public void correct()
     {
+        // Each correct answer had 1 incremented to their final score
         score += 1;
-        // remove Q after answering it
+        // remove questin after answering it
         EQandA.RemoveAt(currentQ);
         // generate next question
         generateQ();
@@ -80,7 +86,7 @@ public class ExamManager : MonoBehaviour
 
     public void wrong()
     {
-        // remove Q after answering it
+        // remove question after answering it
         EQandA.RemoveAt(currentQ);
         // generate next question
         generateQ();
@@ -105,9 +111,11 @@ public class ExamManager : MonoBehaviour
     // Generate Question
     void generateQ()
     {
-        // If the count is > 0, we still have question(s) available to generate
+        // If the number of questions left is more than 0, we still have question(s) available to generate
         if (EQandA.Count > 0)
         {
+            // spawn a random question out of the entire list, so students are less likely to be able 
+            // to cheat as they can't just write the answers down in chronological order 
             currentQ = Random.Range(0, EQandA.Count);
 
             QuestionText.text = EQandA[currentQ].Question;
@@ -115,7 +123,7 @@ public class ExamManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("no Q's left");
+            // There's no questions left so the exam ends
             EndExam();
         }
     }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// TriggerAudioTest script. A very simple script where if you're tagged as player and the audio has not 
+// already been triggered, then the audio will trigger
 public class TriggerAudioTest : MonoBehaviour
 {
     public AudioObject clipToPlay;
@@ -10,38 +12,12 @@ public class TriggerAudioTest : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // When colliding in trigger box/collision area,
+        // if tagged as 'Player' and the sound hasn't already played then play it
         if (other.CompareTag("Player") && !alreadyPlayed)
         {
             Vocals.instance.Say(clipToPlay);
             alreadyPlayed = true;
         }
-        /*  if (!alreadyPlayed)
-          {
-              audioFile.PlayOneShot(Sound, Volume);
-              alreadyPlayed = true;
-
-          }
-      }
-          public AudioClip Sound;
-           public float Volume;
-           AudioSource audioFile;
-           public bool alreadyPlayed = false;
-
-
-           // Start is called before the first frame update
-           void Start()
-           {
-               audioFile = GetComponent<AudioSource>();
-
-           }
-           private void OnTriggerEnter(Collider other)
-           {
-               if (!alreadyPlayed)
-               {
-                   audioFile.PlayOneShot(Sound, Volume);
-                   alreadyPlayed = true;
-
-               }*/
     }
-
 }

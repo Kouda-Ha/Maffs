@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This is for clicking on 'Enforced Math' questions, the player needs 
+// to answer correctly to leave and if the player answers wrong, they'll take damage.
 public class ClickAnswer : MonoBehaviour
 {
     public HealthManager playerHealth;
@@ -22,6 +24,7 @@ public class ClickAnswer : MonoBehaviour
     void OnMouseDown()
     {
         clickCount++;
+        // If the answer is not correct, the player takes damage
         if (!isCorrect)
         {
             WrongAnswerDamage.DealDamage(playerHealth.gameObject);

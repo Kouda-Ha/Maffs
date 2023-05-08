@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Derived from Advanced Games Development, Week 1 Part 4 Lab Materials
+// Found here: https://moodle.mmu.ac.uk/mod/page/view.php?id=3654322
 public class GrabCamera : MonoBehaviour
 {
     private bool hasCamera = false;
@@ -13,7 +14,6 @@ public class GrabCamera : MonoBehaviour
 
     public float blendFac = 0.05f;
 
-    // Start is called before the first frame update
     void Start()
     {
         // Find camera and/or children
@@ -41,7 +41,7 @@ public class GrabCamera : MonoBehaviour
         {
             Vector3 curPos = theCamera.position;
             Quaternion curRot = theCamera.rotation;
-            // blend towards target
+            // blends towards target
             curPos = Vector3.Lerp(curPos, targetPos, blendFac);
             curRot = Quaternion.Slerp(curRot, targetRot, blendFac);
             theCamera.position = curPos;
@@ -54,24 +54,21 @@ public class GrabCamera : MonoBehaviour
         // enables camera in object
         theCamera.GetComponent<Camera>().enabled = false;
         thePlayer.SetActive(true);
-
     }
 
     public void ReleaseCamera()
     {
         Cursor.lockState = CursorLockMode.Locked;
-
-        // give player back camera
+        // give player back their camera
         StartCoroutine(ReleaseOverTime());
     }
-
 
     // Update is called once per frame
     void Update()
     {
         if (hasCamera)
         {
-            // get current rot and pos of camera
+            // get current rotation and position of the camera
             Vector3 curPos = theCamera.position;
             Quaternion curRot = theCamera.rotation;
             // blend towards target
@@ -79,11 +76,10 @@ public class GrabCamera : MonoBehaviour
             curRot = Quaternion.Slerp(curRot, cameraRotation, blendFac);
             theCamera.position = curPos;
             theCamera.rotation = curRot;
-        
         }
-        
     }
 
+    // Grab camera from the player
     public void GrabCameraFrom(GameObject player)
     {
         // switch off player control
@@ -99,9 +95,5 @@ public class GrabCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         hasCamera = true;
-
     }
-
-
-
 }
