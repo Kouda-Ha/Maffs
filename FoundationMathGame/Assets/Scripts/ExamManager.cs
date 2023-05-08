@@ -57,7 +57,7 @@ public class ExamManager : MonoBehaviour
     public void BadEnd()
     {
         Debug.Log("Bad End! You failed!");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(6);
     }
 
     // Very important! If it isn't unlocked and visible upon
