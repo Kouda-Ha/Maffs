@@ -12,10 +12,6 @@ public class ActiveOnEnter : MonoBehaviour
         {
             dialogue.SetActive(true);
         }
-      /*  else
-        {
-            dialogue.SetActive(false);
-        }*/
     }
 
     public void OnTriggerExit(Collider other)
