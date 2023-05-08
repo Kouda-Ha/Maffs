@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Book))]
 public class AutoFlip : MonoBehaviour {
@@ -26,6 +27,7 @@ public class AutoFlip : MonoBehaviour {
 
     private void Update()
     {
+        // Changed the book so it'll turn the pages right and left on 'R' and 'L' presses
         if (Input.GetKeyDown(KeyCode.R))
         {
             FlipRightPage();
@@ -34,7 +36,11 @@ public class AutoFlip : MonoBehaviour {
         {
             FlipLeftPage();
         }
-            
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            SceneManager.LoadScene(0);   
+        }
     }
 
     void PageFlipped()
