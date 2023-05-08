@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This activates dialogue during things such as the tutorial scene, where there are dialogue boxes 
+// subtitling the game tutorial voice over
 public class ActiveOnEnter : MonoBehaviour
 {
     public GameObject dialogue;

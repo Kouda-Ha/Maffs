@@ -6226,7 +6226,7 @@ GameObject:
   - component: {fileID: 351131174}
   - component: {fileID: 351131173}
   m_Layer: 0
-  m_Name: TutorialTrigger (3)
+  m_Name: TutorialTrigger HowToUseThePCs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14858,7 +14858,7 @@ GameObject:
   - component: {fileID: 746128706}
   - component: {fileID: 746128705}
   m_Layer: 0
-  m_Name: TutorialTrigger (2)
+  m_Name: TutorialTrigger E147Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18503,7 +18503,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881047236}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -18554,7 +18554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881047236}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -19.9, y: 1.4799995, z: 5.7}
+  m_LocalPosition: {x: -0.4, y: 1.4799995, z: 5.7}
   m_LocalScale: {x: 8, y: 4, z: 16}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25851,7 +25851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393502076ca388f498ae982149da590f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 293056961}
+  dialogue: {fileID: 0}
 --- !u!1 &1202798883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 193732, guid: 003efb3587f76014688a1190cee2c8c9, type: 3}
@@ -29961,7 +29961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393502076ca388f498ae982149da590f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 1413408953}
+  dialogue: {fileID: 0}
 --- !u!1001 &1398933806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30792,7 +30792,6 @@ GameObject:
   - component: {fileID: 1429999808}
   - component: {fileID: 1429999807}
   - component: {fileID: 1429999810}
-  - component: {fileID: 1429999811}
   m_Layer: 0
   m_Name: SDOffices1
   m_TagString: Untagged
@@ -30864,19 +30863,6 @@ MonoBehaviour:
   animator: {fileID: 1429999808}
   isLocked: 1
   isOpened: 0
---- !u!114 &1429999811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429999806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 393502076ca388f498ae982149da590f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 895198019}
 --- !u!1 &1432118800
 GameObject:
   m_ObjectHideFlags: 0

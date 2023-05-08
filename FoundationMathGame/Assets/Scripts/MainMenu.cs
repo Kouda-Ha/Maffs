@@ -30,7 +30,5 @@ public class MainMenu : MonoBehaviour
         // On trigger enter, when the player triggers this, it'll go to the next scene in the build index
         // which has been set up to smoothly transition from Tutorial to the end of the game
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
     }
-
 }

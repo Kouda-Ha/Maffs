@@ -5,7 +5,7 @@ using TMPro;
 
 [System.Serializable]
 // Question and Answers for final exam
-public class ExamQandA // Exam Questions and Answers
+public class ExamQandA // (Exam Questions and Answers)
 {
     public string Question;
     public string[] Answer;

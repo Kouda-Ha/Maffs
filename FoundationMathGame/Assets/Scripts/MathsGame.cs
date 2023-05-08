@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
+// Maths Game script. Player is forced to answer a math question,
+// can only leave the PC once correctly answering the question. 
 public class MathsGame : MonoBehaviour
 {
     ClickAnswer [] answers;
@@ -10,7 +12,6 @@ public class MathsGame : MonoBehaviour
     bool beaten = false;
     public HealthManager playerHealth;
 
-    // Start is called before the first frame update
     void Start()
     {
         answers = GetComponentsInChildren<ClickAnswer>();
@@ -23,7 +24,7 @@ public class MathsGame : MonoBehaviour
         bool anyClicked = false;
         bool correctClicked = false;
         foreach (var answer in answers)
-        {
+        {   // If you've clicked an answer and it's correct, then change correct clicked to true
             if (answer.GetNumClicks() > 0)
             {
                 anyClicked = true;
@@ -33,10 +34,13 @@ public class MathsGame : MonoBehaviour
                 }
             }
         }
+        // If anything is clicked and as long as player health is less that (or equal to) 0/dead,
+        // release the camera
         if (anyClicked && playerHealth.health <= 0)
         {
             gameCamera.ReleaseCamera();
         }
+        // If the correct answer is clicked, release the camera
         if (correctClicked)
         {
             gameCamera.ReleaseCamera();
@@ -45,6 +49,8 @@ public class MathsGame : MonoBehaviour
 
     }
 
+    // On trigger enter of collision box, if the question isn't answered correctly yet and
+    // user is tagged player, make them answer that question by grabbing the camera
     private void OnTriggerEnter(Collider col)
     {
         if (!beaten && col.gameObject.tag == "Player")

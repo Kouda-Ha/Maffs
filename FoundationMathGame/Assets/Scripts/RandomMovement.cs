@@ -7,10 +7,9 @@ using static UnityEngine.GraphicsBuffer;
 // Code from this tutorial: https://www.youtube.com/watch?v=dYs0WRzzoRc
 // Links to the code here: https://github.com/JonDevTutorial/RandomNavMeshMovement
 
-//if you use this code you are contractually obligated to like the YT video
-public class RandomMovement : MonoBehaviour //don't forget to change the script name if you haven't
+// This RandomMovement script is to make the dummy enemy walk around a navmesh at random intervals.
+public class RandomMovement : MonoBehaviour 
 {
-
     public NavMeshAgent agent;
     public float range; //radius of sphere
     public bool isMoving;
@@ -34,12 +33,10 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
                 agent.SetDestination(point);
             }
         }
-
-
     }
+
     bool RandomPoint(Vector3 center, float range, out Vector3 result)
     {
-
         Vector3 randomPoint = center + Random.insideUnitSphere * range; //random point in a sphere 
         NavMeshHit hit;
         if (NavMesh.SamplePosition(randomPoint, out hit, 1.0f, NavMesh.AllAreas)) //documentation: https://docs.unity3d.com/ScriptReference/AI.NavMesh.SamplePosition.html
@@ -50,11 +47,9 @@ public class RandomMovement : MonoBehaviour //don't forget to change the script 
             gameObject.transform.LookAt(hit.position);
             isMoving = true;
             return true;
-        }
-        
+        } 
         result = Vector3.zero;
         isMoving = false;
         return false;
     }
-
 }

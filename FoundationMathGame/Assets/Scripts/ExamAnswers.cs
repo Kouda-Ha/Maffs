@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+// Exam answers script. 
 public class ExamAnswers : MonoBehaviour
 {
     public bool isCorrect = false;
@@ -12,14 +13,12 @@ public class ExamAnswers : MonoBehaviour
     {
         if(isCorrect)
         {
-            Debug.Log("good job");
             // Question is answered correct, so we move to next question
             examManager.correct();
         }
         else
         {
-            Debug.Log("wrong");
-            // answer answered wrong, no increment to score/grade
+            // answer is answered wrong, no increment to score/grade, also moves to next question
             examManager.wrong();
         }
 
