@@ -25851,7 +25851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393502076ca388f498ae982149da590f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 293056961}
 --- !u!1 &1202798883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 193732, guid: 003efb3587f76014688a1190cee2c8c9, type: 3}
@@ -29961,7 +29961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393502076ca388f498ae982149da590f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 1413408953}
 --- !u!1001 &1398933806
 PrefabInstance:
   m_ObjectHideFlags: 0
