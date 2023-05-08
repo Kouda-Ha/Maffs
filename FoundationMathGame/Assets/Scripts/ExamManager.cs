@@ -15,6 +15,7 @@ public class ExamManager : MonoBehaviour
     public GameObject ExamPanel;
     public GameObject EndExamPanel;
     public TMP_Text ResultsText;
+    public int PassMinimum = 20; // Exam has 50 questions, 40% is needed to pass exam, so 40% of 50 = 20
 
     int totalExamQ = 0;
     public int score;
@@ -26,14 +27,10 @@ public class ExamManager : MonoBehaviour
         UnlockMouseCursor(); // Unlock and make cursor visible upon exam enter
     }
 
-    public void RedoExam()
-    {
-        SceneManager.LoadScene(4);
-    }
-
     public void TheEnd()
-    {
-        if (score >= 2)
+    {   
+        // There are 50 questions, 40% need to be correct to pass
+        if (score >= PassMinimum)
         {
             GoodEnd();
         }
@@ -60,7 +57,7 @@ public class ExamManager : MonoBehaviour
     public void BadEnd()
     {
         Debug.Log("Bad End! You failed!");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(6);
     }
 
     // Very important! If it isn't unlocked and visible upon
