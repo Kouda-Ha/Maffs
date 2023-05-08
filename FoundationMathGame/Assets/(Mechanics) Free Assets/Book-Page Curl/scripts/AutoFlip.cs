@@ -3,6 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+// Mildly edited the free book asset, found here: https://assetstore.unity.com/packages/tools/animation/book-page-curl-55588
+// Main edits are commented with the reasoning to why it was edited. Dominantly, turn pages on button presses and to allow
+// player to quit game in the book view, acting like an easy pause menu.
+
 [RequireComponent(typeof(Book))]
 public class AutoFlip : MonoBehaviour {
     public FlipMode Mode;
@@ -13,7 +17,7 @@ public class AutoFlip : MonoBehaviour {
     public Book ControledBook;
     public int AnimationFramesCount = 40;
     bool isFlipping = false;
-    // Use this for initialization
+
     void Start () {
         if (!ControledBook)
             ControledBook = GetComponent<Book>();
@@ -22,7 +26,6 @@ public class AutoFlip : MonoBehaviour {
         ControledBook.OnFlip.AddListener(new UnityEngine.Events.UnityAction(PageFlipped));
         if (Input.GetKeyDown(KeyCode.M))
             Debug.Log("work");
-            LeftFlip();
 	}
 
     private void Update()
@@ -36,10 +39,13 @@ public class AutoFlip : MonoBehaviour {
         {
             FlipLeftPage();
         }
-
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            SceneManager.LoadScene(0);   
+        // Added a way to exit the game where pressing 'Esc' in the textbook view exits the game
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {  
+            Application.Quit();
+            // Debug log solely for visuals of exiting game in the Unity console,
+            // as quitting game only works in builds and not in Unity editor.
+            Debug.Log("game quit");
         }
     }
 
@@ -52,26 +58,6 @@ public class AutoFlip : MonoBehaviour {
         StartCoroutine(FlipToEnd());
     }
 
-    public void LeftFlip()
-    {
-        Debug.Log("leftactive");
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            Debug.Log("FLIP LEFT NOW");
-
-        }
-    }
-
-    public void RightFlip()
-    {
-        Debug.Log("Right active");
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            Debug.Log("FLIP RIGHT NOW");
-
-        }
-    }
-
     public void FlipRightPage()
     {
         if (isFlipping) return;
@@ -80,7 +66,6 @@ public class AutoFlip : MonoBehaviour {
         float frameTime = PageFlipTime / AnimationFramesCount;
         float xc = (ControledBook.EndBottomRight.x + ControledBook.EndBottomLeft.x) / 2;
         float xl = ((ControledBook.EndBottomRight.x - ControledBook.EndBottomLeft.x) / 2) * 0.9f;
-        //float h =  ControledBook.Height * 0.5f;
         float h = Mathf.Abs(ControledBook.EndBottomRight.y) * 0.9f;
         float dx = (xl)*2 / AnimationFramesCount;
         StartCoroutine(FlipRTL(xc, xl, h, frameTime, dx));
@@ -93,7 +78,6 @@ public class AutoFlip : MonoBehaviour {
         float frameTime = PageFlipTime / AnimationFramesCount;
         float xc = (ControledBook.EndBottomRight.x + ControledBook.EndBottomLeft.x) / 2;
         float xl = ((ControledBook.EndBottomRight.x - ControledBook.EndBottomLeft.x) / 2) * 0.9f;
-        //float h =  ControledBook.Height * 0.5f;
         float h = Mathf.Abs(ControledBook.EndBottomRight.y) * 0.9f;
         float dx = (xl) * 2 / AnimationFramesCount;
         StartCoroutine(FlipLTR(xc, xl, h, frameTime, dx));
@@ -104,7 +88,6 @@ public class AutoFlip : MonoBehaviour {
         float frameTime = PageFlipTime / AnimationFramesCount;
         float xc = (ControledBook.EndBottomRight.x + ControledBook.EndBottomLeft.x) / 2;
         float xl = ((ControledBook.EndBottomRight.x - ControledBook.EndBottomLeft.x) / 2)*0.9f;
-        //float h =  ControledBook.Height * 0.5f;
         float h = Mathf.Abs(ControledBook.EndBottomRight.y)*0.9f;
         //y=-(h/(xl)^2)*(x-xc)^2          
         //               y         

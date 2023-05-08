@@ -9,7 +9,6 @@ public class SoundOnEnter : MonoBehaviour
     AudioSource audioFile;
     public bool alreadyPlayed = false;
 
-
     // Start is called before the first frame update
     void Start()
     {
