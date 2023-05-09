@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 24e7e96dae0b1714990e8bf42957cd40, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.08467357, g: 0.005785706, b: 0.00022206595, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2236,7 +2236,7 @@ PrefabInstance:
       objectReference: {fileID: 526937118}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.size
-      value: 22
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[0]
@@ -2265,67 +2265,91 @@ PrefabInstance:
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: 4cb03f7e8f84dc04db1e1fab18316def, type: 3}
+      objectReference: {fileID: 21300000, guid: d8d67c04f0f51ca4abe8b1056315641f, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[7]
       value: 
-      objectReference: {fileID: 21300000, guid: d8d67c04f0f51ca4abe8b1056315641f, type: 3}
+      objectReference: {fileID: 21300000, guid: cc0aaac76edebfd4cba82bb99a1fe7dc, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: cc0aaac76edebfd4cba82bb99a1fe7dc, type: 3}
+      objectReference: {fileID: 21300000, guid: 098b13fc2ebfb6a44add642b511fff62, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[9]
       value: 
-      objectReference: {fileID: 21300000, guid: 098b13fc2ebfb6a44add642b511fff62, type: 3}
+      objectReference: {fileID: 21300000, guid: 4fcbaa2ba0e467b43a63f78d8f885ab7, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[10]
       value: 
-      objectReference: {fileID: 21300000, guid: 4fcbaa2ba0e467b43a63f78d8f885ab7, type: 3}
+      objectReference: {fileID: 21300000, guid: a793cf7d502beb14b847d6120759ebfd, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[11]
       value: 
-      objectReference: {fileID: 21300000, guid: a793cf7d502beb14b847d6120759ebfd, type: 3}
+      objectReference: {fileID: 21300000, guid: 3f9b91181af1ba6488f481d24ee72911, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[12]
       value: 
-      objectReference: {fileID: 21300000, guid: 3f9b91181af1ba6488f481d24ee72911, type: 3}
+      objectReference: {fileID: 21300000, guid: 57daa0d75ab9b624e93ffb354e579d9b, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[13]
       value: 
-      objectReference: {fileID: 21300000, guid: 57daa0d75ab9b624e93ffb354e579d9b, type: 3}
+      objectReference: {fileID: 21300000, guid: 21893d6dc4bc89346b09f69aabe6ec8b, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[14]
       value: 
-      objectReference: {fileID: 21300000, guid: 21893d6dc4bc89346b09f69aabe6ec8b, type: 3}
+      objectReference: {fileID: 21300000, guid: 842e7f49f9543e14aa261929a2b7953e, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[15]
       value: 
-      objectReference: {fileID: 21300000, guid: 9ee606d8a881dff42a8ba27797c3cdb9, type: 3}
+      objectReference: {fileID: 21300000, guid: afdbff453b889044ab28dfb8a031112d, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[16]
       value: 
-      objectReference: {fileID: 21300000, guid: 842e7f49f9543e14aa261929a2b7953e, type: 3}
+      objectReference: {fileID: 21300000, guid: 6bcf73a99579aa84091cab19524f7394, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[17]
       value: 
-      objectReference: {fileID: 21300000, guid: 6bcf73a99579aa84091cab19524f7394, type: 3}
+      objectReference: {fileID: 21300000, guid: 1765c7ddbd450174994c71728e2ec7e6, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[18]
       value: 
-      objectReference: {fileID: 21300000, guid: 1765c7ddbd450174994c71728e2ec7e6, type: 3}
+      objectReference: {fileID: 21300000, guid: 51f4bdfe2d49e8b449e5649f358c9c0d, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[19]
       value: 
-      objectReference: {fileID: 21300000, guid: 51f4bdfe2d49e8b449e5649f358c9c0d, type: 3}
+      objectReference: {fileID: 21300000, guid: 242237089d48e2e4fb7a49614b9fbe33, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[20]
       value: 
-      objectReference: {fileID: 21300000, guid: 242237089d48e2e4fb7a49614b9fbe33, type: 3}
+      objectReference: {fileID: 21300000, guid: 69adc7dc9a48d734ab02a6ad96ce4155, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: bookPages.Array.data[21]
       value: 
-      objectReference: {fileID: 21300000, guid: 69adc7dc9a48d734ab02a6ad96ce4155, type: 3}
+      objectReference: {fileID: 21300000, guid: b97819431c99c694cba5bbfeed226818, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6fbb4e9b83a8cc04c94101688cb6b2af, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: cc98039b21be3214fa612e1c2db05672, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[24]
+      value: 
+      objectReference: {fileID: 21300000, guid: 126e7a59bd11e5e4b8f5ebefd41a143c, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[25]
+      value: 
+      objectReference: {fileID: 21300000, guid: dbe7703e8e76edd419392025f74582fb, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[26]
+      value: 
+      objectReference: {fileID: 21300000, guid: dbe7703e8e76edd419392025f74582fb, type: 3}
+    - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
+      propertyPath: bookPages.Array.data[27]
+      value: 
+      objectReference: {fileID: 21300000, guid: dbe7703e8e76edd419392025f74582fb, type: 3}
     - target: {fileID: 11415212, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: OnFlip.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -2944,6 +2968,7 @@ MonoBehaviour:
   ExamPanel: {fileID: 1592738494}
   EndExamPanel: {fileID: 238689377}
   ResultsText: {fileID: 633337243}
+  PassMinimum: 20
   score: 0
 --- !u!4 &1492586693
 Transform:
