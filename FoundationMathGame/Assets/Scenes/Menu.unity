@@ -665,7 +665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &657903537
 RectTransform:
   m_ObjectHideFlags: 0
@@ -916,6 +916,10 @@ MonoBehaviour:
 
     ''R'' and ''L''
     to turn book pages right or left
+
+
+    ''E'' and ''F'' to enter or finish using
+    a tip PC
 
 
     Right click to zoom'
@@ -1905,7 +1909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1577049472
 RectTransform:
   m_ObjectHideFlags: 0
