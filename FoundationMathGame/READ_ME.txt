@@ -33,3 +33,5 @@ Controls:
 - T to open textbook
 - R and L to flip textbook pages
 - E to enter and F to finish using a Tip PC
+--------
+My GitHub repo for the entire project can be found here, it was private but I'll make it public now I'm submitting it: https://github.com/Kouda-Ha/Maffs
