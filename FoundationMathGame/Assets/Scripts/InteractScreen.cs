@@ -29,8 +29,6 @@ public class InteractScreen : MonoBehaviour
                 player.GetComponent<FirstPersonController>().enabled = false;
                 player.GetComponentInChildren<Camera>().enabled = false;
                 pcCam.GetComponent<Camera>().enabled = true;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
             }
             // 'F' to Finish using the Interaction Screen
             else if (Input.GetKey(KeyCode.F))
